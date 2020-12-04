@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1186px;
+    margin: 0 auto;
+}
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+.header-list__item{
+    margin-right: 37px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #202020;
+}
+.header-list__link{
+    text-decoration: none;
+}
+.header-button{
+    padding: 6px 13px;
+    background: #5528FF;
+    border-radius: 5px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF; 
+}
+.agency-title{
+    margin: 0;
+    margin-bottom: 35px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 57px;
+    line-height: 65px;
+    color: #202020;
+}
+.agency-description{
+    margin: 0;
+    margin-bottom: 70px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 51px;
+    color: #4F4F4F;
+}
+.agency-button{
+    padding: 16px 58px;
+    background: #5528FF;
+    border-radius: 10px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.service{
+    padding-top: 100px;
+    padding-bottom: 102px;
+}
+.service-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.service-block__card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.service-block__text{
+    margin-left: 67px;
+}
+.list{
+    margin-right:67px ;
+}
+.clients{
+    padding-top: 53px;
+    padding-bottom: 109px;
+}
+.clients-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+.clients-image{
+    flex-basis: 25%;
+    margin-bottom: 62px;
+}
+.team-image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 35px;
+}
+.team-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.team-block{
+    display: flex;
+    align-items: center;
+    flex-basis: 33%;
+    margin-bottom: 60px;
+}
+.team-title{
+    margin: 0;
+    margin-bottom: 11px;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 32px;
+    color: #202020;
+}
+.team-description{
+    margin: 0;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #B2B2B2;
+}
+.footer{
+    padding-top: 38px;
+    padding-bottom: 34px;
+}
+.footer-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
